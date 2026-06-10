@@ -1,0 +1,64 @@
+# =========================================================================
+# Fișiere Compilate & Binare (Obiecte și Executabile)
+# =========================================================================
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.la
+*.lo
+
+# Executabile finale (fără extensie pe Linux/macOS, cu .exe pe Windows)
+*.exe
+*.out
+*.app
+
+# =========================================================================
+# Directoare de Build și Output standard
+# =========================================================================
+[Bb]uild/
+[Dd]ist/
+[Bc]in/
+[Oo]bj/
+[Oo]ut/
+
+# CMake (dacă folosești CMake pentru configurare)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# =========================================================================
+# Temporary files and logs
+# =========================================================================
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# =========================================================================
+# IDE Condfigurations
+# =========================================================================
+# VS Code
+.vscode/
+# Exception: if you want to save the debug configuration in git, uncomment the line below:
+# !.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.user
+*.suo
+*.sln
